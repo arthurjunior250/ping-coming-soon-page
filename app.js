@@ -11,6 +11,7 @@ function validateForm(){
         document.getElementById('error-email').innerHTML = "Whoops! It looks like you forgot to add your email"; 
         document.getElementById('emailbox').style.border= "1px solid red";
         document.getElementById('error-email').style.color= "red";
+
     }else{
         document.getElementById('error-email').innerHTML = "Please provide a valid email address"; 
         document.getElementById('emailbox').style.border= "1px solid red";
